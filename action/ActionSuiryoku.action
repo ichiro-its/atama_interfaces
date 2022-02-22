@@ -1,0 +1,4 @@
+bool start_processing
+---
+bool done_processing
+---
