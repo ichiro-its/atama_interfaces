@@ -17,10 +17,12 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "action/ActionSoccer.action"
   "action/RunHead.action"
-  "msg/FunctionParam.msg"
-  "msg/Head.msg")
+  "msg/Head.msg"
+  "msg/LookToParam.msg"
+  "msg/MoveByAngleParam.msg"
+  "msg/ScanParam.msg"
+  "msg/TrackParam.msg")
 
 ament_export_dependencies(rosidl_default_runtime)
 ament_package()
