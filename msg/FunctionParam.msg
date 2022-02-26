@@ -1,0 +1,10 @@
+float64 left_limit -1.0
+float64 right_limit -1.0
+float64 top_limit -1.0
+float64 bottom_limit -1.0
+int32 scan_type -1
+string object_name ""
+float64 pan_angle -1.0
+float64 tilt_angle -1.0
+float64 goal_position_x -1.0
+float64 goal_position_y -1.0
