@@ -1,7 +1,0 @@
-int32 function_id -1
-ScanParam scan_param
-TrackParam track_param
-MoveByAngleParam move_by_angle_param
-LookToParam look_to_param
----
-bool done_processing

@@ -18,11 +18,8 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Head.msg"
-  "msg/LookToParam.msg"
-  "msg/MoveByAngleParam.msg"
-  "msg/ScanParam.msg"
-  "msg/TrackParam.msg"
-  "srv/RunHead.srv")
+  "msg/RunHead.msg"
+  "msg/Status.msg")
 
 ament_export_dependencies(rosidl_default_runtime)
 ament_package()
