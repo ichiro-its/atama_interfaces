@@ -19,7 +19,9 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Head.msg"
   "msg/RunHead.msg"
-  "msg/Status.msg")
+  "msg/Status.msg"
+  "srv/GetConfig.srv"
+  "srv/SaveConfig.srv")
 
 ament_export_dependencies(rosidl_default_runtime)
 ament_package()
